@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Document</title>
+    <title>Tango Challenge</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
@@ -14,9 +14,10 @@
       <div class="content-wrapper">
         <div class="applicant-container">
           <div
-            style="color: rgb(66, 66, 66); margin: 10px 10px 0px 0px; width: 10px; height: auto; float: right;"
+            style="color: #424242; margin: 10px 10px 0px 0px; width: 10px; height: auto; float: right;"
           >
             <svg
+              style="color:rgba(66, 66, 66, .5)"
               stroke="currentColor"
               fill="currentColor"
               stroke-width="0"
@@ -32,39 +33,28 @@
           </div>
           <div class="applicant">
             <div style="width: 85px; margin: auto;">
-              <div data-test-id="CircularProgressbarWithChildren">
+              <div class="circular-progressbar">
                 <div
                   style="position: relative; width: 100%; height: 100%;"
                 >
                   <svg
-                    class="CircularProgressbar "
-                    viewBox="0 0 100 100"
-                    data-test-id="CircularProgressbar"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="-1 -1 34 34"
                   >
-                    <path
-                      class="CircularProgressbar-trail"
-                      d="
-    M 50,50
-    m 0,-49
-    a 49,49 0 1 1 0,98
-    a 49,49 0 1 1 0,-98
-  "
-                      stroke-width="2"
-                      fill-opacity="0"
-                      style="stroke-dasharray: 307.876px, 307.876px; stroke-dashoffset: 0px;"
-                    ></path>
-                    <path
-                      class="CircularProgressbar-path"
-                      d="
-    M 50,50
-    m 0,-49
-    a 49,49 0 1 1 0,98
-    a 49,49 0 1 1 0,-98
-  "
-                      stroke-width="2"
-                      fill-opacity="0"
-                      style="stroke-dasharray: 307.876px, 307.876px; stroke-dashoffset: 92.3628px;"
-                    ></path>
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="15.9155"
+                      class="progress-bar__background"
+                    />
+
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="15.9155"
+                      class="progress-bar__progress 
+                        js-progress-bar"
+                    />
                   </svg>
                   <div
                     data-test-id="CircularProgressbarWithChildren__children"
@@ -119,8 +109,9 @@
               >
                 <path
                   d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-                ></path></svg
-              ><span>pass</span></button
+                ></path>
+              </svg>
+              <span>pass</span></button
             ><button>
               <svg
                 stroke="currentColor"
@@ -133,10 +124,9 @@
                 xmlns="http://www.w3.org/2000/svg"
                 style="vertical-align: middle; width: 18px; height: 36px;"
               >
-                <path
-                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
-                ></path></svg
-              ><span>shortlist</span>
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"></path>
+              </svg>
+              <span>shortlist</span>
             </button>
           </div>
         </div>
