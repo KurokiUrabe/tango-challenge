@@ -1,65 +1,71 @@
-.experience-container{
+.experience-container {
   display: flex;
   flex-flow: column wrap;
   width: 100%;
   height: auto;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  border: 1px solid #E1E3EA;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e1e3ea;
   opacity: 1;
 }
-.experiences{
+.experiences {
   width: calc(100% - 26px - 17px);
-  flex:0 0 0%;
+  flex: 0 0 0%;
   margin: 27px 17px 0px 26px;
 }
-.experience-item{
+.experience-item {
   border-bottom: 1px solid rgba(225, 227, 234, 1);
   margin: 10px 0;
 }
-.experiences > :first-child { margin-top: 0 !important; margin-left: 0 !important; }
-.experiences > :last-child { margin-bottom: 0 !important; margin-right: 0 !important; }
+.experiences > :first-child {
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+}
+.experiences > :last-child {
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+}
 
 .experience-container .experience-upper {
-  display:flex;
+  display: flex;
   position: relative;
   justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
 }
-.experience-info{
+.experience-info {
   flex: 1 0 0%;
 }
 
-.experience-info .role{
+.experience-info .role {
   font-size: 14px;
   line-height: 20px;
   font-weight: bold;
-  color:rgba(0, 0, 0, 0.87)
+  color: rgba(0, 0, 0, 0.87);
 }
-.experience-info .show{
+.experience-info .show {
   font-size: 14px;
   line-height: 20px;
   font-weight: bold;
-  color:rgba(0, 114, 188, 1)
+  color: rgba(0, 114, 188, 1);
 }
-.experience-upper .year{
-  flex:0 0 0%;
+.experience-upper .year {
+  flex: 0 0 0%;
 }
 
 .experience-upper .year > span {
   font-size: 12px;
   line-height: 20px;
   font-weight: bold;
-  color:rgba(0, 0, 0, 0.87)
+  color: rgba(0, 0, 0, 0.87);
 }
 /* end experience */
 
-.experience-bottom{
+.experience-bottom {
   display: flex;
   /* margin-bottom: 7.5px; */
 }
 
-.experience-bottom .genre{
+.experience-bottom .genre {
   flex: auto;
 }
 
@@ -70,47 +76,46 @@
   color: rgba(117, 117, 117, 1);
 }
 
-
 /* start footer */
-  .footer-wrapper{
-    flex:0 0 0%;
-    width: calc(100% - 26px - 17px);
-    margin: 13px 17px 0px 26px;
-    text-transform: uppercase;
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: bold;
-    color:rgba(0, 111, 191, 1);
-    display: flex;
-    flex-flow: row wrap;
-  }
+.footer-wrapper {
+  flex: 0 0 0%;
+  width: calc(100% - 26px - 17px);
+  margin: 13px 17px 0px 26px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: bold;
+  color: rgba(0, 111, 191, 1);
+  display: flex;
+  flex-flow: row wrap;
+}
 
-  .footer-wrapper .mutual-connection{
-    flex:2 0 0%;
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    /* align-items: stretch; */
-  }
-  .footer-wrapper .relevant-credits{
-    flex:1 0 0%;
-    display: flex;
-    align-items: center;
-  }
-  .relevant-credits .badge {
-    background-color: rgba(0, 114, 188, 1);
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 10px;
-    line-height: 16px;
-    border-radius: 10em;
-    min-width: 1.5em;
-    padding: .25em;
-    text-align: center;
-    color:rgba(255, 255, 255, 0.87);
+.footer-wrapper .mutual-connection {
+  flex: 2 0 0%;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  /* align-items: stretch; */
+}
+.footer-wrapper .relevant-credits {
+  flex: 1 0 0%;
+  display: flex;
+  align-items: center;
+}
+.relevant-credits .badge {
+  background-color: rgba(0, 114, 188, 1);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 16px;
+  border-radius: 10em;
+  min-width: 1.5em;
+  padding: 0.25em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.87);
 }
 /* end footer */
-.connection-list{
+.connection-list {
   position: relative;
   opacity: 70%;
   height: 25px;
@@ -126,19 +131,19 @@
   margin-right: -7px;
   border: 1px white;
 }
-  
+
 .more-connections {
-    display: inline-block;
-    width: 25px;
-    height: auto;
-    overflow: hidden;
-    line-height: 25px;
-    border-radius: 50%;
-    background-color: #0072BC;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    border: 1px rgb(255, 255, 255);
-    opacity: 1;
+  display: inline-block;
+  width: 25px;
+  height: auto;
+  overflow: hidden;
+  line-height: 25px;
+  border-radius: 50%;
+  background-color: #0072bc;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border: 1px rgb(255, 255, 255);
+  opacity: 1;
 }
 /* .more-connections{
   display: inline-flex;

@@ -1,0 +1,328 @@
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+}
+.App {
+  top: 0px;
+  left: 0px;
+  width: 811px;
+  height: 313px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  /* opacity: 1;
+  border: 1px; */
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* end */
+.content-wrapper {
+  margin: 29px 30px 32px 30px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* start experience */
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+}
+
+/* my start applicant */
+.applicant-container{
+  position: relative;
+  /* top: 29px; */
+  /* left: 30px; */
+  width: 240px;
+  height: 252px;
+  background: #FBFBFD 0% 0% no-repeat padding-box;
+  border: 1px solid #E1E3EA;
+  opacity: 1;
+}
+.applicant{
+  margin: 16px 23px 0px 25px;
+  top: 45px;
+  left: 55px;
+  width: 192px;
+  height: 185px;
+  opacity: 1;
+}
+.applicant .percentage {
+  margin-top: 7px;
+  text-align: center;
+  font-family: 'Roboto Medium';
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0;
+  color: #94C1E6;
+  opacity: 1;
+
+}
+.applicant .name{
+  text-align: center;  
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #006FBF;
+  opacity: 1;
+}
+
+.applicant .location{
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  color: rgb(63, 63, 63);
+  opacity: 1;
+}
+.applicant .description{
+  text-align: center;
+  font: Italic 12px/16px Roboto;
+  letter-spacing: 0;
+  color: #191919;
+  opacity: 1;
+}
+
+/* end applicant */
+
+.applicant-footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+button {
+  /* line-height: 36px;
+  display:flex ; */
+  min-width: 120px;
+  text-align: center;
+  
+  background: #006FBF 0% 0% no-repeat padding-box;
+  /* background-color: #FD310F; */
+  color: #fff;
+  border:  1px solid #E1E3EB;
+  cursor: pointer;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  opacity: 0.4;
+ }
+button>span{
+  text-align: center;
+  vertical-align: middle;
+  font: Medium 12px/13px Roboto;
+  font-weight: bold;
+  letter-spacing: 0;
+  opacity: 1;
+  text-transform: uppercase;
+}
+/* rounded */
+.rounded-applicant {
+  display: inline-block;
+  position: relative;
+  width: 77px;
+  height: 77px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+
+.experience-container{
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: auto;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #E1E3EA;
+  opacity: 1;
+}
+.experiences{
+  width: calc(100% - 26px - 17px);
+  flex:0 0 0%;
+  margin: 27px 17px 0px 26px;
+}
+.experience-item{
+  border-bottom: 1px solid rgba(225, 227, 234, 1);
+  margin: 10px 0;
+}
+.experiences > :first-child { margin-top: 0 !important; margin-left: 0 !important; }
+.experiences > :last-child { margin-bottom: 0 !important; margin-right: 0 !important; }
+
+.experience-container .experience-upper {
+  display:flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.experience-info{
+  flex: 1 0 0%;
+}
+
+.experience-info .role{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  color:rgba(0, 0, 0, 0.87)
+}
+.experience-info .show{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  color:rgba(0, 114, 188, 1)
+}
+.experience-upper .year{
+  flex:0 0 0%;
+}
+
+.experience-upper .year > span {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: bold;
+  color:rgba(0, 0, 0, 0.87)
+}
+/* end experience */
+
+.experience-bottom{
+  display: flex;
+  /* margin-bottom: 7.5px; */
+}
+
+.experience-bottom .genre{
+  flex: auto;
+}
+
+.experience-bottom > div {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: bold;
+  color: rgba(117, 117, 117, 1);
+}
+
+
+/* start footer */
+  .footer-wrapper{
+    flex:0 0 0%;
+    width: calc(100% - 26px - 17px);
+    margin: 13px 17px 0px 26px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bold;
+    color:rgba(0, 111, 191, 1);
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .footer-wrapper .mutual-connection{
+    flex:2 0 0%;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    /* align-items: stretch; */
+  }
+  .footer-wrapper .relevant-credits{
+    flex:1 0 0%;
+    display: flex;
+    align-items: center;
+  }
+  .relevant-credits .badge {
+    background-color: rgba(0, 114, 188, 1);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 16px;
+    border-radius: 10em;
+    min-width: 1.5em;
+    padding: .25em;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.87);
+}
+/* end footer */
+.connection-list{
+  position: relative;
+  opacity: 70%;
+  height: 25px;
+}
+.rounded-connection {
+  flex: 1 0 0%;
+  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: -7px;
+  border: 1px white;
+}
+  
+.more-connections {
+    display: inline-block;
+    width: 25px;
+    height: auto;
+    overflow: hidden;
+    line-height: 25px;
+    border-radius: 50%;
+    background-color: #0072BC;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px rgb(255, 255, 255);
+    opacity: 1;
+}
+/* .more-connections{
+  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  flex: 1 0 0%;
+  overflow: hidden;
+  margin-right: -10px;
+
+}
+.more-connections .badge {
+  background-color: rgba(0, 114, 188, 1);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 16px;
+  border-radius: 10em;
+  min-width: 1.5em;
+  padding: .25em;
+  text-align: center;
+  color:rgba(255, 255, 255, 0.87);
+} */
