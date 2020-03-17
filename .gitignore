@@ -102,3 +102,35 @@ dist
 
 # TernJS port file
 .tern-port
+build/asset-manifest.json
+build/favicon.ico
+build/index.html
+build/logo192.png
+build/logo512.png
+build/manifest.json
+build/precache-manifest.20197f08ee32522a45e54363d729eadd.js
+build/robots.txt
+build/service-worker.js
+build/assets/img/image_19-1.png
+build/assets/img/image_19-1@2x.png
+build/assets/img/image_19-2.png
+build/assets/img/image_19-2@2x.png
+build/assets/img/image_19-3.png
+build/assets/img/image_19-3@2x.png
+build/assets/img/image_19-4.png
+build/assets/img/image_19-4@2x.png
+build/assets/img/image_19.png
+build/assets/img/image_19@2x.png
+build/assets/img/image_30.png
+build/assets/img/image_30@2x.png
+build/static/css/2.f524894f.chunk.css
+build/static/css/2.f524894f.chunk.css.map
+build/static/css/main.11f01023.chunk.css
+build/static/css/main.11f01023.chunk.css.map
+build/static/js/2.2f93dcdd.chunk.js
+build/static/js/2.2f93dcdd.chunk.js.LICENSE.txt
+build/static/js/2.2f93dcdd.chunk.js.map
+build/static/js/main.67f3993c.chunk.js
+build/static/js/main.67f3993c.chunk.js.map
+build/static/js/runtime-main.0dea652d.js
+build/static/js/runtime-main.0dea652d.js.map
